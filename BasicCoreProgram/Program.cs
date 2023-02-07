@@ -10,7 +10,7 @@ namespace BasicCoreProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1 :FlipCoin \n 2: LeapYear \n 3:PowerOfTwo \n 4:HarmonicNumber \n 5:CalculatingFactor \n 6:QuotientRemainder \n 7:SwappingNumber \n 8:EvenorOdd \n 9:CheckAlphabet");
+            Console.WriteLine("1 :FlipCoin \n 2: LeapYear \n 3:PowerOfTwo \n 4:HarmonicNumber \n 5:CalculatingFactor \n 6:QuotientRemainder \n 7:SwappingNumber \n 8:EvenorOdd \n 9:CheckAlphabet \n 10:LargestNumber");
             Console.WriteLine("Enter a Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -58,6 +58,11 @@ namespace BasicCoreProgram
                 case 9:
                     CheckAlphabet Alphabet = new CheckAlphabet();
                     Alphabet.Alphabet();
+                    break;
+
+                case 10:
+                    LargestNumber ThreeNum = new LargestNumber();
+                    ThreeNum.ThreeNum();
                     break;
 
             }
