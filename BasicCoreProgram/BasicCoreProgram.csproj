@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CalculatingFactor.cs" />
+    <Compile Include="EvenorOdd.cs" />
     <Compile Include="FlipCoin.cs" />
     <Compile Include="HarmonicNumber.cs" />
     <Compile Include="LeapYear.cs" />
