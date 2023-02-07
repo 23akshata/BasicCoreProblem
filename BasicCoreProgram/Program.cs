@@ -10,7 +10,7 @@ namespace BasicCoreProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1 :FlipCoin \n 2: LeapYear \n 3:PowerOfTwo");
+            Console.WriteLine("1 :FlipCoin \n 2: LeapYear \n 3:PowerOfTwo \n 4:HarmonicNumber");
             Console.WriteLine("Enter a Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -28,6 +28,11 @@ namespace BasicCoreProgram
                 case 3:
                     PowerOfTwo power = new PowerOfTwo();
                     power.PowerTwo();
+                    break;
+
+                case 4:
+                    HarmonicNumber Harmonic = new HarmonicNumber();
+                    Harmonic.Harmonic();
                     break;
             }
             Console.ReadLine();
