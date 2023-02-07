@@ -10,7 +10,7 @@ namespace BasicCoreProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1 :FlipCoin \n 2: LeapYear \n 3:PowerOfTwo \n 4:HarmonicNumber \n 5:CalculatingFactor");
+            Console.WriteLine("1 :FlipCoin \n 2: LeapYear \n 3:PowerOfTwo \n 4:HarmonicNumber \n 5:CalculatingFactor \n 6:QuotientRemainder");
             Console.WriteLine("Enter a Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -38,6 +38,11 @@ namespace BasicCoreProgram
                 case 5:
                     CalculatingFactor factor = new CalculatingFactor();
                     factor.Factor();
+                    break;
+
+                case 6:
+                    QuotientRemainder division = new QuotientRemainder();
+                    division.Division();
                     break;
             }
             Console.ReadLine();
